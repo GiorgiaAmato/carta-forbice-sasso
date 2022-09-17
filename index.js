@@ -42,9 +42,12 @@ function onUserPick() {
     document.getElementById("computer-choice").innerHTML = cpuPickText + cpuPickImg;
     //Visualizza risultato partita
     document.getElementById("result").innerHTML = checkWhoWon();
-        //Aggiunge alla pagina il valore dello score per user e pc
+    document.getElementsByClassName("result-container")[0].style.backgroundColor = "blue";
+
+    //Aggiunge alla pagina il valore dello score per user e pc
     document.getElementById("player-score").innerHTML = score.userScore;
     document.getElementById("cpu-score").innerHTML = score.cpuScore;
+    
 }
 
 
@@ -89,7 +92,6 @@ function checkWhoWon () {
             }
         }
     }
-    document.getElementsByClassName("result-container").style.backgroundColor = "red"
 }
 
     

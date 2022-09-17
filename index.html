@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta, Forbice, Sasso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="score-container">
+        <h3>Il tuo punteggio: <span id="player-score"></span></h3>
+        <h3>Il punteggio computer: <span id="cpu-score"></span></h3>
+    </div>
+
+    <div class="container">
+        <h1>Cosa scegli?</h1>
+        <img src="img/carta.png" width="100" height="100" data-name="carta" class="user-chioce">
+        <img src="img/forbice.png" width="100" height="100" data-name="forbice" class="user-chioce">
+        <img src="img/sasso.png" width="100" height="100" data-name="sasso" class="user-chioce">
+    </div>
+    
+    <div class="result-container margin-top">
+        <h1 id="result"></h1>
+    </div>
+
+    <div id="computer-choice"> </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

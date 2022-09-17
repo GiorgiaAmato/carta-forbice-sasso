@@ -10,7 +10,7 @@ span, h1 {color: blue;}
 
 
 
-.user-chioce {transition: 0.4ms;}
+.user-chioce {transition: 0.3ms;}
 .user-chioce:hover {transform: scale(1.2);}
 
 .result-container {padding: 10px 20px; border-radius: 20px;}
